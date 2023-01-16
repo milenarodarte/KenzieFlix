@@ -1,0 +1,103 @@
+
+div.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+
+}
+.kenzieflix{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+
+}
+.logokenzie{
+    margin-bottom: 50px;
+}
+h1 {
+    color: white;
+    margin-bottom: 50px;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+
+main.users {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+}
+.image {
+    width: 160px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+   
+}
+.imageplus {
+    border-radius: 10px;
+    background-color: rgb(3,3,3);
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boximage{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(31, 31, 31);
+    border-radius: 10px;
+}
+.boximage:hover {
+    border: 1px solid white;
+}
+.image:hover {
+    border: 1px solid white;
+    
+}
+p {
+    color: rgba(236, 235, 235, 0.961);
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+p:hover {
+    color: white;
+}
+.button-botton {
+    margin-top: 50px;
+    
+}
+button{
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    font-size: medium;
+}
+button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black
+}
+figure {
+    width:160px;
+}
